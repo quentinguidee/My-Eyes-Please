@@ -55,7 +55,9 @@
       "scope": [
         "comment",
         "comment.block",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",
+        "string.quoted.docstring",
+        "string.quoted.docstring punctuation.definition.string"
       ],
       "settings": {
         "fontStyle": "italic",
