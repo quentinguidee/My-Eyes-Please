@@ -11,7 +11,7 @@
     "activityBarBadge.background": "#007acc",
     "sideBar.background": "#101113",
     "sideBarSectionHeader.background": "#101113",
-    "sideBarSectionHeader.foreground": "#21242b",
+    "sideBarSectionHeader.foreground": "#2a2e38",
     "sideBar.border": "#111010",
     "sideBarTitle.foreground": "#bbbbbb",
     "editorWidget.background": "#161414",
@@ -24,9 +24,9 @@
     "scrollbarSlider.hoverBackground": "#0b0b0c",
     "scrollbarSlider.activeBackground": "#0b0b0c",
     "activityBar.background": "#0c0d0e",
-    "activityBar.foreground": "#323e4b",
+    "activityBar.foreground": "#364350",
     "statusBar.background": "#0c0d0e",
-    "statusBar.foreground": "#1f252b",
+    "statusBar.foreground": "#2b343d",
     "editorBracketMatch.background": "#0c0d0e",
     "editorBracketMatch.border": "#1a2020",
     "editor.selectionBackground": "#1e2225",
@@ -52,17 +52,32 @@
   },
   "tokenColors": [{
       "name": "Comment",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": [
+        "comment",
+        "comment.block",
+        "punctuation.definition.comment"
+      ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#30353D"
+        "foreground": "#333942"
+      }
+    },
+    {
+      "name": "Comment keywords",
+      "scope": [
+        "storage.type.class",
+        "keyword.other.documentation"
+      ],
+      "settings": {
+        "fontStyle": "bold italic",
+        "foreground": "#333942"
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#6870e0"
+        "foreground": "#df5e65" //db7b55
       }
     },
     {
@@ -141,14 +156,14 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#68a6e0"
+        "foreground": "#2484d3"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#df5e65"
       }
     },
     {
@@ -359,6 +374,27 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Brackets",
+      "scope": [
+        "punctuation.bracket.round",
+        "meta.method.body",
+        "punctuation.section.block",
+        "punctuation.definition.parameters"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Terminator",
+      "scope": [
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#466d70"
       }
     },
     {
