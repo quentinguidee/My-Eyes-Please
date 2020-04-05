@@ -104,6 +104,15 @@
       }
     },
     {
+      "name": "Keyword",
+      "scope": [
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#f37746"
+      }
+    },
+    {
       "name": "Storage Types",
       "scope": ["storage.type"],
       "settings": {
@@ -147,6 +156,15 @@
       }
     },
     {
+      "name": "Function name",
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#38e4e4"
+      }
+    },
+    {
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
@@ -156,7 +174,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#2484d3"
+        "foreground": "#6f9fc7"
       }
     },
     {
@@ -201,6 +219,13 @@
       ],
       "settings": {
         "foreground": "#59b47c"
+      }
+    },
+    {
+      "name": "String brackets",
+      "scope": ["punctuation.definition.string"],
+      "settings": {
+        "foreground": "#398b59",
       }
     },
     {
@@ -379,22 +404,29 @@
     {
       "name": "Brackets",
       "scope": [
+        "punctuation.parenthesis",
         "punctuation.bracket.round",
         "meta.method.body",
         "punctuation.section.block",
-        "punctuation.definition.parameters"
+        "punctuation.definition.parameters",
+        "punctuation.definition.arguments",
+        "punctuation.definition.list",
+        "punctuation.separator.element",
+        "punctuation.separator.arguments"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#d1dae6"
       }
     },
     {
       "name": "Terminator",
       "scope": [
-        "punctuation.terminator"
+        "punctuation.terminator",
+        "punctuation.separator.colon",
+        "punctuation.section.function"
       ],
       "settings": {
-        "foreground": "#466d70"
+        "foreground": "#70acb1"
       }
     },
     {
