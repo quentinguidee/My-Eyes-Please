@@ -1,0 +1,19 @@
+{
+    "name": "my-eyes-please",
+    "displayName": "My Eyes Please!",
+    "description": "Your eyes please!",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [{
+            "label": "My Eyes Please!",
+            "uiTheme": "vs-dark",
+            "path": "./themes/My Eyes Please!-color-theme.json"
+        }]
+    }
+}
