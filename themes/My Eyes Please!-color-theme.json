@@ -239,7 +239,6 @@
       "name": "Class, Support",
       "scope": [
         "entity.name",
-        "support.type",
         "support.class",
         "support.orther.namespace.use.php",
         "meta.use.php",
@@ -262,7 +261,7 @@
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#C792EA"
       }
     },
     {
