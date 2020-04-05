@@ -1,19 +1,33 @@
 {
-    "name": "my-eyes-please",
-    "displayName": "My Eyes Please!",
-    "description": "Your eyes please!",
-    "version": "0.1.0",
-    "engines": {
-        "vscode": "^1.43.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [{
-            "label": "My Eyes Please!",
-            "uiTheme": "vs-dark",
-            "path": "./themes/My Eyes Please!-color-theme.json"
-        }]
-    }
+  "name": "my-eyes-please",
+  "displayName": "My Eyes Please!",
+  "description": "My Eyes Please! Yet another theme for VSCode.",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Eyes Please!",
+        "uiTheme": "vs-dark",
+        "path": "./themes/My Eyes Please!-color-theme.json"
+      }
+    ]
+  },
+  "publisher": "quentinguidee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quentinguidee/My-Eyes-Please"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "eyes"
+  ],
+  "icon": "icon.png",
+  "preview": true
 }
