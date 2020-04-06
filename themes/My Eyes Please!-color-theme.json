@@ -6,6 +6,7 @@
     "editor.foreground": "#eeffff",
     "editor.lineHighlightBorder": "#111214",
     "editor.lineHighlightBackground": "#111214",
+    "editorLineNumber.foreground": "#414853",
     "editorCursor.foreground": "#0e51e0",
     "editorCursor.background": "#bec4c4",
     "activityBarBadge.background": "#007acc",
@@ -50,14 +51,15 @@
     "editorWarning.foreground": "#4bcf82",
     "foreground": "#3a424b"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Comment",
       "scope": [
         "comment",
         "comment.block",
         "punctuation.definition.comment",
         "string.quoted.docstring",
-        "string.quoted.docstring punctuation.definition.string",
+        "string.quoted.docstring punctuation.definition.string"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -78,11 +80,7 @@
     },
     {
       "name": "Variables",
-      "scope": [
-        "variable",
-        "string constant.other.placeholder",
-        "source"
-      ],
+      "scope": ["variable", "string constant.other.placeholder", "source"],
       "settings": {
         "foreground": "#df5e65"
       }
@@ -103,18 +101,14 @@
     },
     {
       "name": "Keyword",
-      "scope": [
-        "keyword"
-      ],
+      "scope": ["keyword"],
       "settings": {
         "foreground": "#f0cc62"
       }
     },
     {
       "name": "Keyword",
-      "scope": [
-        "keyword.operator"
-      ],
+      "scope": ["keyword.operator"],
       "settings": {
         "foreground": "#f37746"
       }
@@ -159,14 +153,12 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#f0cc62"
       }
     },
     {
       "name": "Function name",
-      "scope": [
-        "entity.name.function"
-      ],
+      "scope": ["entity.name.function"],
       "settings": {
         "foreground": "#38e4e4"
       }
@@ -205,11 +197,15 @@
         "constant.language",
         "support.constant",
         "constant.character",
-        "constant.escape",
-        "variable.parameter",
-        "keyword.other.unit",
-        "keyword.other"
+        "constant.escape"
       ],
+      "settings": {
+        "foreground": "#8fa866"
+      }
+    },
+    {
+      "name": "Other keywords",
+      "scope": ["variable.parameter", "keyword.other.unit", "keyword.other"],
       "settings": {
         "foreground": "#da6440"
       }
@@ -232,7 +228,7 @@
       "name": "String brackets",
       "scope": ["punctuation.definition.string"],
       "settings": {
-        "foreground": "#398b59",
+        "foreground": "#398b59"
       }
     },
     {
@@ -282,7 +278,7 @@
         "source.postcss support.type.property-name"
       ],
       "settings": {
-        "foreground": "#B2CCD6"
+        "foreground": "#df5e65"
       }
     },
     {
@@ -324,9 +320,9 @@
     },
     {
       "name": "Attributes",
-      "scope": ["entity.other.attribute-name"],
+      "scope": ["entity.other.attribute-name", "support.type.property-name"],
       "settings": {
-        "foreground": "#f0cc62"
+        "foreground": "#df5e65"
       }
     },
     {

@@ -4,6 +4,13 @@ All notable changes to the "my-eyes-please" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.1.3
+
+- Line numbers color
+- HTML support
+- CSS support
+- Change numbers color
+
 ## 0.1.2
 
 - Better yellow
