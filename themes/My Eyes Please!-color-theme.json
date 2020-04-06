@@ -411,6 +411,8 @@
         "meta.brace",
         "meta.method.body",
         "punctuation.section",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
         "punctuation.definition",
         "punctuation.separator.element",
         "punctuation.separator.arguments",
@@ -552,11 +554,12 @@
       "name": "Markdown - Heading",
       "scope": [
         "markdown.heading",
+        "entity.name.section.markdown",
         "markup.heading | markup.heading entity.name",
         "markup.heading.markdown punctuation.definition.heading.markdown"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#f0cc62"
       }
     },
     {
@@ -595,7 +598,7 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#F78C6C"
+        "foreground": "#cccbcb"
       }
     },
     {
@@ -616,7 +619,7 @@
       "name": "Markdown - Link",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#86bae6"
       }
     },
     {
