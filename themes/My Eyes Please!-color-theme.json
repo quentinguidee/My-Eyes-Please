@@ -57,7 +57,7 @@
         "comment.block",
         "punctuation.definition.comment",
         "string.quoted.docstring",
-        "string.quoted.docstring punctuation.definition.string"
+        "string.quoted.docstring punctuation.definition.string",
       ],
       "settings": {
         "fontStyle": "italic",
@@ -68,7 +68,8 @@
       "name": "Comment keywords",
       "scope": [
         "storage.type.class",
-        "keyword.other.documentation"
+        "keyword.other.documentation",
+        "punctuation.definition.block.tag"
       ],
       "settings": {
         "fontStyle": "bold italic",
@@ -77,9 +78,13 @@
     },
     {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
+      "scope": [
+        "variable",
+        "string constant.other.placeholder",
+        "source"
+      ],
       "settings": {
-        "foreground": "#df5e65" //db7b55
+        "foreground": "#df5e65"
       }
     },
     {
@@ -102,7 +107,7 @@
         "keyword"
       ],
       "settings": {
-        "foreground": "#F3C746"
+        "foreground": "#f0cc62"
       }
     },
     {
@@ -118,14 +123,14 @@
       "name": "Storage Types",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#F3C746"
+        "foreground": "#f0cc62"
       }
     },
     {
       "name": "Storage Modifiers",
       "scope": ["storage.modifier"],
       "settings": {
-        "foreground": "#F3C746"
+        "foreground": "#f0cc62"
       }
     },
     {
@@ -321,7 +326,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#F3C746"
+        "foreground": "#f0cc62"
       }
     },
     {
@@ -332,14 +337,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FFCB6B"
+        "foreground": "#f0cc62"
       }
     },
     {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#f0cc62"
       }
     },
     {
@@ -406,14 +411,14 @@
       "name": "Brackets",
       "scope": [
         "punctuation.parenthesis",
-        "punctuation.bracket.round",
+        "punctuation.bracket",
+        "meta.brace",
         "meta.method.body",
-        "punctuation.section.block",
-        "punctuation.definition.parameters",
-        "punctuation.definition.arguments",
-        "punctuation.definition.list",
+        "punctuation.section",
+        "punctuation.definition",
         "punctuation.separator.element",
-        "punctuation.separator.arguments"
+        "punctuation.separator.arguments",
+        "meta.structure.dictionary"
       ],
       "settings": {
         "foreground": "#d1dae6"
@@ -446,7 +451,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#a65cd8"
+        "foreground": "#ae70d8"
       }
     },
     {
@@ -455,7 +460,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#F3C746"
+        "foreground": "#f0cc62"
       }
     },
     {
