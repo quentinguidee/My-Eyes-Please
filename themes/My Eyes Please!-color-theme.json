@@ -51,8 +51,7 @@
     "editorWarning.foreground": "#4bcf82",
     "foreground": "#3a424b"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comment",
       "scope": [
         "comment",
@@ -69,7 +68,7 @@
     {
       "name": "Comment keywords",
       "scope": [
-        "storage.type.class",
+        "storage.type.class.jsdoc",
         "keyword.other.documentation",
         "punctuation.definition.block.tag"
       ],
@@ -79,8 +78,24 @@
       }
     },
     {
+      "name": "Imports",
+      "scope": [
+        "storage.modifier.import",
+        "keyword.other.import",
+        "meta.import punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#333942"
+      }
+    },
+    {
       "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder", "source"],
+      "scope": [
+        "variable",
+        "string constant.other.placeholder",
+        "source",
+        "meta.method.body.java"
+      ],
       "settings": {
         "foreground": "#df5e65"
       }
@@ -101,7 +116,10 @@
     },
     {
       "name": "Keyword",
-      "scope": ["keyword"],
+      "scope": [
+        "keyword",
+        "storage.type.class"
+      ],
       "settings": {
         "foreground": "#f0cc62"
       }
@@ -110,7 +128,7 @@
       "name": "Keyword",
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#f37746"
+        "foreground": "#f0cc62"
       }
     },
     {
@@ -131,6 +149,7 @@
       "name": "Operator, Misc",
       "scope": [
         "constant.other.color",
+        "constant.other.color punctuation.definition.constant",
         "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
@@ -170,15 +189,24 @@
         "meta.function-call",
         "variable.function",
         "support.function",
-        "keyword.other.special-method"
+        "keyword.other.special-method",
+        "entity.name",
+        "support.class",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#6f9fc7"
+        "foreground": "#5298d1"
       }
     },
     {
       "name": "Block Level Variables",
-      "scope": ["meta.block variable.other"],
+      "scope": [
+        "meta.block variable.other"
+      ],
       "settings": {
         "foreground": "#df5e65"
       }
@@ -207,7 +235,7 @@
       "name": "Other keywords",
       "scope": ["variable.parameter", "keyword.other.unit", "keyword.other"],
       "settings": {
-        "foreground": "#da6440"
+        "foreground": "#e2714e"
       }
     },
     {
@@ -236,28 +264,6 @@
       "scope": ["entity.other.inherited-class"],
       "settings": {
         "foreground": "#e2714e"
-      }
-    },
-    {
-      "name": "Class, Support",
-      "scope": [
-        "entity.name",
-        "support.class",
-        "support.orther.namespace.use.php",
-        "meta.use.php",
-        "support.other.namespace.php",
-        "markup.changed.git_gutter",
-        "support.type.sys-types"
-      ],
-      "settings": {
-        "foreground": "#3b70d1"
-      }
-    },
-    {
-      "name": "Java method body",
-      "scope": ["meta.method.body.java"],
-      "settings": {
-        "foreground": "#da6440"
       }
     },
     {
@@ -320,7 +326,11 @@
     },
     {
       "name": "Attributes",
-      "scope": ["entity.other.attribute-name", "support.type.property-name"],
+      "scope": [
+        "entity.other.attribute-name",
+        "punctuation.separator.key-value.html",
+        "support.type.property-name"
+      ],
       "settings": {
         "foreground": "#df5e65"
       }
@@ -329,25 +339,24 @@
       "name": "HTML Attributes",
       "scope": [
         "text.html.basic entity.other.attribute-name.html",
-        "text.html.basic entity.other.attribute-name"
+        "text.html.basic entity.other.attribute-name",
+        "keyword.control.at-rule.media punctuation.definition.keyword"
       ],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#f0cc62"
       }
     },
     {
-      "name": "CSS Classes",
-      "scope": ["entity.other.attribute-name.class"],
+      "name": "CSS Classes and ID's",
+      "scope": [
+        "source.sass keyword.control",
+        "entity.other.attribute-name.id",
+        "entity.other.attribute-name.id punctuation.definition.entity.css",
+        "entity.other.attribute-name.class",
+        "entity.other.attribute-name.class punctuation.definition.entity.css"
+      ],
       "settings": {
-        "foreground": "#f0cc62"
-      }
-    },
-    {
-      "name": "CSS ID's",
-      "scope": ["source.sass keyword.control"],
-      "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#f09b62"
       }
     },
     {
@@ -416,7 +425,12 @@
         "punctuation.definition",
         "punctuation.separator.element",
         "punctuation.separator.arguments",
-        "meta.structure.dictionary"
+        "punctuation.separator.delimiter",
+        "punctuation.separator.list",
+        "punctuation.separator.parameters",
+        "meta.structure.dictionary",
+        "punctuation.section.function.begin.bracket",
+        "punctuation.section.function.end.bracket"
       ],
       "settings": {
         "foreground": "#d1dae6"
@@ -427,10 +441,11 @@
       "scope": [
         "punctuation.terminator",
         "punctuation.separator.colon",
-        "punctuation.section.function"
+        "punctuation.section.function",
+        "punctuation.separator.key-value"
       ],
       "settings": {
-        "foreground": "#70acb1"
+        "foreground": "#3d5658"
       }
     },
     {
