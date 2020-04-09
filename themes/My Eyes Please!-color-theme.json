@@ -51,7 +51,8 @@
     "editorWarning.foreground": "#4bcf82",
     "foreground": "#3a424b"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Comment",
       "scope": [
         "comment",
@@ -81,8 +82,11 @@
       "name": "Imports",
       "scope": [
         "storage.modifier.import",
+        "storage.modifier.package",
         "keyword.other.import",
-        "meta.import punctuation.terminator"
+        "keyword.other.package",
+        "meta.import punctuation.terminator",
+        "meta.package punctuation.terminator"
       ],
       "settings": {
         "foreground": "#333942"
@@ -116,10 +120,7 @@
     },
     {
       "name": "Keyword",
-      "scope": [
-        "keyword",
-        "storage.type.class"
-      ],
+      "scope": ["keyword", "storage.type.class"],
       "settings": {
         "foreground": "#f0cc62"
       }
@@ -204,9 +205,7 @@
     },
     {
       "name": "Block Level Variables",
-      "scope": [
-        "meta.block variable.other"
-      ],
+      "scope": ["meta.block variable.other"],
       "settings": {
         "foreground": "#df5e65"
       }
