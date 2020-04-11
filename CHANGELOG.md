@@ -4,6 +4,11 @@ All notable changes to the "my-eyes-please" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.2.1
+
+- Cursor color changed
+- @Override color
+
 ## 0.2.0
 
 - Some improvements

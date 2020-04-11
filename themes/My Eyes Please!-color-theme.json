@@ -7,7 +7,7 @@
     "editor.lineHighlightBorder": "#111214",
     "editor.lineHighlightBackground": "#111214",
     "editorLineNumber.foreground": "#414853",
-    "editorCursor.foreground": "#0e51e0",
+    "editorCursor.foreground": "#1b85c2",
     "editorCursor.background": "#bec4c4",
     "editor.wordHighlightBackground": "#242831",
     "editor.wordHighlightStrongBackground": "#242831",
@@ -62,7 +62,8 @@
     "editorSuggestWidget.selectedBackground": "#272c36",
     "foreground": "#3a424b"
   },
-  "tokenColors": [{
+  "tokenColors": [
+    {
       "name": "Comment",
       "scope": [
         "comment",
@@ -93,6 +94,8 @@
       "scope": [
         "storage.modifier.import",
         "storage.modifier.package",
+        "storage.type.annotation",
+        "punctuation.definition.annotation",
         "keyword.other.import",
         "keyword.other.package",
         "meta.import punctuation.terminator",

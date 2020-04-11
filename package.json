@@ -10,13 +10,11 @@
     "Themes"
   ],
   "contributes": {
-    "themes": [
-      {
-        "label": "My Eyes Please!",
-        "uiTheme": "vs-dark",
-        "path": "./themes/My Eyes Please!-color-theme.json"
-      }
-    ]
+    "themes": [{
+      "label": "My Eyes Please!",
+      "uiTheme": "vs-dark",
+      "path": "./themes/My Eyes Please!-color-theme.json"
+    }]
   },
   "publisher": "quentinguidee",
   "repository": {
@@ -26,7 +24,8 @@
   "keywords": [
     "theme",
     "dark",
-    "eyes"
+    "eyes",
+    "focus"
   ],
   "icon": "icon.png",
   "preview": true
