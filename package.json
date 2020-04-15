@@ -2,7 +2,7 @@
   "name": "my-eyes-please",
   "displayName": "My Eyes Please!",
   "description": "My Eyes Please! Yet another theme for VSCode.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "engines": {
     "vscode": "^1.43.0"
   },
