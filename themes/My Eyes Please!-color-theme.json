@@ -60,10 +60,28 @@
     "editorSuggestWidget.border": "#21212c",
     "editorSuggestWidget.foreground": "#59708b",
     "editorSuggestWidget.selectedBackground": "#272c36",
+    "terminal.ansiBlack": "#21252b",
+    "terminal.ansiBrightBlack": "#21252b",
+    "terminal.ansiGreen": "#a0ca60",
+    "terminal.ansiBrightGreen": "#a0ca60",
+    "terminal.ansiYellow": "#f0cc62",
+    "terminal.ansiBrightYellow": "#f0cc62",
+    "terminal.ansiBlue": "#5298d1",
+    "terminal.ansiBrightBlue": "#5298d1",
+    "terminal.ansiMagenta": "#a573c6",
+    "terminal.ansiBrightMagenta": "#a573c6",
+    "terminal.ansiCyan": "#4ba5b6",
+    "terminal.ansiBrightCyan": "#4ba5b6",
+    "terminal.ansiWhite": "#abb2bf",
+    "terminal.ansiBrightWhite": "#abb2bf",
+    "terminal.ansiRed": "#d35b6f",
+    "terminal.ansiBrightRed": "#d35b6f",
+    "terminalCursor.background": "#1b85c2",
+    "terminalCursor.foreground": "#1b85c2",
+    "terminal.foreground": "#abb2bf",
     "foreground": "#3a424b"
   },
-  "tokenColors": [
-    {
+  "tokenColors": [{
       "name": "Comment",
       "scope": [
         "comment",
