@@ -455,9 +455,15 @@
       "scope": [
         "punctuation.terminator",
         "punctuation.separator.colon",
+        "punctuation.separator.dot-access",
+        "punctuation.separator.pointer-access",
+        "punctuation.separator.scope-resolution",
         "punctuation.separator.period",
-        "punctuation.section.function",
         "punctuation.separator.key-value",
+        "punctuation.separator.initializers",
+        "meta.qualified_type.cpp",
+        "meta.function.definition.parameters.cpp",
+        "punctuation.section.function",
         "keyword.operator.assignment",
         "keyword.control.ternary"
       ],
